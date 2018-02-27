@@ -7,7 +7,7 @@ font-family: 'Lobster', cursive;
 .smalltext {font-size:15px;}
 .bluetext {color:blue}
 
-h1 {
+#heading {
   text-decoration: none;
   font-family: 'Lobster', cursive;
   color: pink;
@@ -20,7 +20,7 @@ a:hover {
   color:blue;
 }
 
-h2 {
+#heading2 {
   color: pink;
   text-decoration: overline;
   font-family: 'Karla', sans-serif;
