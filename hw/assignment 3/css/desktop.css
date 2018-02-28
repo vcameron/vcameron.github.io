@@ -1,3 +1,10 @@
+.image-bg {
+  background-image: url(images/wide.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
 header h1 {
   height: 100px;
   padding-top: 50px;
@@ -15,4 +22,10 @@ nav li {
   padding-top: 15px;
   padding-bottom: 15px;
   display: inline;
+}
+.square-img {
+  display: none;
+}
+.wide-img {
+  display: none;
 }

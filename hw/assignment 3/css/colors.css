@@ -16,3 +16,5 @@ nav ul {
   list-style-type: none; padding-left: 0
 }
 nav a {text-decoration: none;}
+
+img {max-width: 100%;}
