@@ -1,24 +1,41 @@
-.dark-bg {background: #AE4300; }
-.medium-bg {background: #FF6708; }
-.light-bg { background: #FFA066; }
+.dark-bg {background: white; }
+.medium-bg {background: pink; }
+.light-bg { background: white; }
 
-.dark-txt {color: #AE4300; }
-.medium-txt {color: #FF6708; }
-.light-txt {color: #FFA066; }
+.dark-txt {color: black; }
+.medium-txt {color: black; }
+.light-txt {color: black; }
+.largetext {font-size: 34px;}
+.smalltext {font-size: 15px}
 /*A comment */
+
 
 body {
   padding: 0;
   margin: 0;
+  font-family: "Courier New";
+  background-color: pink;
+}
+title {text-align: center;
+}
+/*can i use this code?*/
+h1,h2,h3,h4 {text-align: center;
 }
 
+h1 {
+  font-style: italic;
+}
 nav ul {
   list-style-type: none; padding-left: 0
 }
-nav a {text-decoration: none;}
+nav a {text-decoration: underline;
+  font-style: italic;
+}
 
 img {max-width: 100%;}
 
 footer p {
-  padding: 25px;
+  padding: 10px;
+  text-align: center;
+  font-style: italic;
 }
