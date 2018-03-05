@@ -7,6 +7,22 @@
 .light-txt {color: black; }
 .largetext {font-size: 34px;}
 .smalltext {font-size: 15px}
+
+.gallery {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gallery ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.gallery li {
+display: block;
+border: 1px solid #CCCCCC;
+}
 /*A comment */
 
 
@@ -24,14 +40,14 @@ h11 {
   font-size: 50px;
   margin:0;
   font-style: italic;
-  color: white;
-  background-color: black
+  color: black;
 }
 p {
   padding-left: 20;}
 header {
-  color: white;
-  background-color: black;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 h1,h2, h3,h4,h5 {
   text-decoration: underline;
@@ -40,7 +56,7 @@ h1,h2, h3,h4,h5 {
   margin: 0
 }
 nav ul {
-  list-style-type: none; padding-left: 0
+  list-style-type: none; padding-left: 0;
 }
 nav a {text-decoration: underline;
   font-style: italic;
