@@ -20,9 +20,20 @@ body {
 title {text-align: center; margin-bottom: 0;
 }
 /*can i use this code?*/
-h1 {font-size: 50px; margin:0}
-h1,h2,h3,h4,h5 {text-align: center;
-  font-style: italic; margin: 0
+h11 {
+  font-size: 50px;
+  margin:0;
+  font-style: italic;
+  text-align: center;
+}
+p {
+  padding-left: 20;
+}
+h1,h2, h3,h4,h5 {
+  text-decoration: underline;
+  text-align: center;
+  font-style: italic;
+  margin: 0
 }
 nav ul {
   list-style-type: none; padding-left: 0
