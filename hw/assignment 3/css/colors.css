@@ -1,10 +1,10 @@
 .dark-bg {background: none; }
-.medium-bg {background: #FFC0CB; }
-.light-bg { background: #FFC0CB; }
+.medium-bg {background: #FFD9DF; }
+.light-bg { background: #FFD9DF; }
 
 .dark-txt {color: black; }
 .medium-txt {color: black; }
-.light-txt {color: black;}
+.light-txt {color: black}
 .hugetext {font-size: 120px !important;}
 .largetext {font-size: 70px;}
 .smediumtext {font-size: 40px;}
@@ -42,7 +42,7 @@ header {
   text-align: center;
   padding-bottom: 20px;
   padding-top: 20px;
-  background-color: pink
+  background-color: #FFD9DF
 }
 #about {
   font-family: 'Rubik Mono One', sans-serif;
