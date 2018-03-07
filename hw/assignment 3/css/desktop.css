@@ -27,10 +27,10 @@ nav li {
 #about {
   padding-left: 500px;
   font-family: 'Zilla Slab', serif;
-text-decoration: none !important;
 }
 #p1 {
-  padding-left: 500px
+  padding-left: 500px;
+  text-align: justify left;
 }
 .square-img {
   display: none;

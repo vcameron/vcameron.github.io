@@ -5,9 +5,11 @@
 .dark-txt {color: black; }
 .medium-txt {color: black; }
 .light-txt {color: black;}
+.hugetext {font-size: 120px !important;}
 .largetext {font-size: 70px;}
 .smediumtext {font-size: 40px;}
 .smalltext {font-size: 15px}
+
 
 
 .gallery {
@@ -32,7 +34,6 @@ title {text-align: center; margin-bottom: 0;
 h11 {
   font-size: 50px;
   margin:0;
-  font-style: italic;
   color: black;
 }
 p {
@@ -46,17 +47,17 @@ header {
 #about {
   font-family: 'Rubik Mono One', sans-serif;
 }
+
+
 h1,h2, h3,h4,h5 {
   text-decoration: none;
   text-align: center;
-  font-style: italic;
   margin: 0;
 }
 nav ul {
   list-style-type: none; padding-left: 0;
 }
 nav a {text-decoration: none;
-  font-style: italic;
 }
 
 img {max-width: 100%;}
