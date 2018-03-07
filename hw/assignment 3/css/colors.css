@@ -54,7 +54,7 @@ h1,h2, h3,h4,h5 {
 nav ul {
   list-style-type: none; padding-left: 0;
 }
-nav a {text-decoration: underline;
+nav a {text-decoration: none;
   font-style: italic;
 }
 
