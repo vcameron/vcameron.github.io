@@ -7,10 +7,10 @@
 
 header h1 {
   height: 100px;
-  padding-top: 50px;
+  padding-top: 30px;
   text-align: center;
 }
-nav ul {text-align: right;
+nav ul {text-align: center;
   width: 100%;
   max-width: 960px;
   margin-left: auto;

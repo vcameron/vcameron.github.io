@@ -5,7 +5,8 @@
 .dark-txt {color: black; }
 .medium-txt {color: black; }
 .light-txt {color: black;}
-.largetext {font-size: 34px;}
+.largetext {font-size: 70px;}
+.smediumtext {font-size: 40px;}
 .smalltext {font-size: 15px}
 
 
@@ -15,17 +16,13 @@
   margin-right: auto;
   float: center;
 }
-.about {
-  align: right !important;
-}
-
 
 /*A comment */
 body {
-  padding: 0;
-  margin: 0;
+  padding: 10;
+  margin: 10;
   font-family: "Courier New";
-  background-color: #FFC0CB;
+  background-color: white;
 }
 #p1 {text-align: center; margin-top: 0;margin-bottom: 30}
 title {text-align: center; margin-bottom: 0;
@@ -43,6 +40,7 @@ header {
   text-align: center;
   padding-bottom: 20px;
   padding-top: 20px;
+  background-color: #F6D6DB
 }
 
 h1,h2, h3,h4,h5 {
