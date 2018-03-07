@@ -9,6 +9,12 @@
 .largetext {font-size: 70px;}
 .smediumtext {font-size: 40px;}
 .smalltext {font-size: 15px}
+#left {
+  padding-right: 25px;
+}
+#indexnav {
+  margin-top: 0;
+}
 
 .image-bg {
   background-image: url(images/wide.jpeg);
