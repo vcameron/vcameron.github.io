@@ -1,3 +1,15 @@
+.dark-bg {background: none; }
+.medium-bg {background: #FFC0CB; }
+.light-bg { background: #FFC0CB; }
+
+.dark-txt {color: black; }
+.medium-txt {color: black; }
+.light-txt {color: black;}
+.hugetext {font-size: 120px !important;}
+.largetext {font-size: 70px;}
+.smediumtext {font-size: 40px;}
+.smalltext {font-size: 15px}
+
 .image-bg {
   background-image: url(images/wide.jpeg);
   background-size: cover;
