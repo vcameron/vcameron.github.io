@@ -24,8 +24,10 @@ nav li {
   padding-bottom: 15px;
   display: inline;
 }
-h2 {
+#about {
   padding-left: 500px;
+  font-family: 'Zilla Slab', serif;
+text-decoration: none !important;
 }
 #p1 {
   padding-left: 500px
