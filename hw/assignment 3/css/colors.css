@@ -1,5 +1,5 @@
-.dark-bg {background: none; }
-.medium-bg {background: #FFD9DF; }
+.dark-bg { background: none; }
+.medium-bg { background: #FFD9DF; }
 .light-bg { background: #FFD9DF; }
 
 .dark-txt {color: black; }
@@ -8,13 +8,16 @@
 .hugetext {font-size: 120px !important;}
 .largetext {font-size: 70px;}
 .smediumtext {font-size: 40px;}
-.smalltext {font-size: 15px}
+.smalltext { font-size: 15px }
 
 .gallery {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  float: center;
+  width: 180px;
+  float: left;
+  margin-right: 5px;
+}
+
+.desc {
+  text-align: center;
 }
 
 /*A comment */
@@ -23,44 +26,50 @@ body {
   margin: 10;
   font-family: "Courier New";
   background-color: white;
-  text-align: right
 }
-#p1 {text-align: center; margin-top: 0;margin-bottom: 30}
-title {text-align: center; margin-bottom: 0;
-}
+
+#p1 { text-align: center; margin-top: 0; margin-bottom: 30 }
+title {text-align: center; margin-bottom: 0;}
+
 /*can i use this code?*/
 h11 {
   font-size: 50px;
   margin:0;
   color: black;
 }
-p {
-  padding-left: 20px;}
+
+p { padding-left: 20px; }
 header {
   text-align: center;
   padding-bottom: 20px;
   padding-top: 20px;
   background-color: #FFD9DF;
 }
+
 #about {
   font-family: 'Rubik Mono One', sans-serif;
 }
-
 
 h1,h2, h3,h4,h5 {
   text-decoration: none;
   text-align: center;
   margin: 0;
 }
-nav ul {
-  list-style-type: none; padding-left: 0;
-}
-nav a {text-decoration: none;
+nav ul { list-style-type: none; padding-left: 0; }
+nav a { text-decoration: none; }
+
+img { max-width: 100%; }
+
+section {
+  display: inline-block;
+  text-align: center;
+  width: 50%;
+  margin-bottom: 25px;
+  margin-left: auto;
 }
 
-img {max-width: 100%;}
-
-footer p {
+footer {
+  display: inline-block;
   padding: 10px;
   text-align: center;
 }
