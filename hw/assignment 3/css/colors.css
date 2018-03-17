@@ -10,8 +10,6 @@
 .smediumtext {font-size: 40px;}
 .smalltext {font-size: 15px}
 
-
-
 .gallery {
   display: block;
   margin-left: auto;
@@ -42,7 +40,7 @@ header {
   text-align: center;
   padding-bottom: 20px;
   padding-top: 20px;
-  background-color: #FFD9DF
+  background-color: #FFD9DF;
 }
 #about {
   font-family: 'Rubik Mono One', sans-serif;
@@ -65,5 +63,4 @@ img {max-width: 100%;}
 footer p {
   padding: 10px;
   text-align: center;
-  font-style: italic;
 }

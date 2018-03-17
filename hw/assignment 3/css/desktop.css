@@ -1,6 +1,6 @@
 .dark-bg {background: none; }
-.medium-bg {background: #FFC0CB; }
-.light-bg { background: #FFC0CB; }
+.medium-bg {background: #FFD9DF; }
+.light-bg { background: #FFD9DF; }
 
 .dark-txt {color: black; }
 .medium-txt {color: black; }
@@ -9,12 +9,17 @@
 .largetext {font-size: 70px;}
 .smediumtext {font-size: 40px;}
 .smalltext {font-size: 15px}
+
 #left {
   padding-right: 25px;
 }
-#indexnav {
-  margin-top: 0;
+.gallery {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: center;
 }
+
 
 .image-bg {
   background-image: url(images/wide.jpeg);
@@ -27,7 +32,7 @@ header h1 {
   height: 100px;
   padding-top: 20px;
   text-align: center;
-  background-color: pink
+  background-color: #FFD9DF;
 }
 nav ul {text-align: center;
   width: 100%;
@@ -44,7 +49,7 @@ nav li {
 }
 #about {
   padding-left: 500px;
-  font-family: 'Zilla Slab', serif;
+  font-family: 'Zilla Slab', serif !important;
 }
 #p1 {
   padding-left: 500px;
