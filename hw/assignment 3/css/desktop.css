@@ -1,6 +1,6 @@
 .dark-bg {background: none; }
-.medium-bg {background: #FFD9DF; }
-.light-bg { background: #FFD9DF; }
+.medium-bg {background:#FFD9DF; }
+.light-bg { background:#FFD9DF; }
 
 .dark-txt {color: black; }
 .medium-txt {color: black; }
@@ -34,6 +34,7 @@ header h1 {
   text-align: center;
   background-color: #FFD9DF;
 }
+
 nav ul {text-align: center;
   width: 100%;
   max-width: 960px;

@@ -1,6 +1,6 @@
 .dark-bg { background: none; }
-.medium-bg { background: #FFD9DF; }
-.light-bg { background: #FFD9DF; }
+.medium-bg { background-color: #FFD9DF;}
+.light-bg { background-color: #FFD9DF;}
 
 .dark-txt {color: black; }
 .medium-txt {color: black; }
@@ -16,14 +16,14 @@
   margin-right: 5px;
 }
 
-.desc {
+.alt {
   text-align: center;
 }
 
 /*A comment */
 body {
-  padding: 10;
-  margin: 10;
+  padding: 10px;
+  margin: 10px;
   font-family: "Courier New";
   background-color: white;
 }
@@ -41,8 +41,9 @@ h11 {
 p { padding-left: 20px; }
 header {
   text-align: center;
-  padding-bottom: 20px;
-  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  margin-bottom: 10px;
   background-color: #FFD9DF;
 }
 
