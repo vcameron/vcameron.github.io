@@ -15,10 +15,13 @@
 }
 
 .gallery {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  float: center;
+  width: 180px;
+  float: left;
+  margin-right: 5px;
+}
+
+.alt {
+  text-align: center;
 }
 
 
@@ -52,6 +55,16 @@ nav li {
 #about {
   padding-left: 500px;
   font-family: 'Zilla Slab', serif !important;
+}
+section {
+  display: inline-block;
+  text-align: center;
+  width: 50%;
+  margin-bottom: 25px;
+  margin-left: auto;
+}
+img {
+  max-width: 100%;
 }
 #p1 {
   padding-left: 500px;
