@@ -9,13 +9,19 @@
 .largetext {font-size: 70px;}
 .smediumtext {font-size: 40px;}
 .smalltext { font-size: 15px }
-
+.about {
+  font-family: 'Rubik Mono One', sans-serif;
+}
+.left {
+    position: absolute;
+    left: 0px;
+    width: 200px;
+    padding: 10px;
+}
 .gallery {
   width: 180px;
   float: left;
   margin-right: 5px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .alt {
@@ -30,7 +36,9 @@ body {
   background-color: white;
 }
 
-#p1 { text-align: center; margin-top: 0; margin-bottom: 30 }
+.p1 { text-align: center;
+  margin-top: 0;
+  margin-bottom: 30 }
 title {text-align: center; margin-bottom: 0;}
 
 /*can i use this code?*/
@@ -49,9 +57,7 @@ header {
   background-color: #FFD9DF;
 }
 
-#about {
-  font-family: 'Rubik Mono One', sans-serif;
-}
+
 #bodymain {
   text-align: center;
 }

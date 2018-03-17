@@ -14,6 +14,7 @@
   text-align: center;
 }
 
+
 .gallery {
   width: 180px;
   float: left;
@@ -24,13 +25,6 @@
   text-align: center;
 }
 
-
-.image-bg {
-  background-image: url(images/wide.jpeg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: bottom;
-}
 
 header h1 {
   height: 100px;
