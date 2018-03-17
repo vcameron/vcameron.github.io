@@ -50,6 +50,9 @@ header {
 #about {
   font-family: 'Rubik Mono One', sans-serif;
 }
+#bodymain {
+  text-align: center;
+}
 
 h1,h2, h3,h4,h5 {
   text-decoration: none;

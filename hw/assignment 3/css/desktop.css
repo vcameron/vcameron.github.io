@@ -10,9 +10,10 @@
 .smediumtext {font-size: 40px;}
 .smalltext {font-size: 15px}
 
-#left {
-  padding-right: 25px;
+#bodymain {
+  text-align: center;
 }
+
 .gallery {
   display: block;
   margin-left: auto;
