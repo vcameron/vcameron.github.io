@@ -1,0 +1,30 @@
+<!DOCTYPE hmtl>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> How to guide</title>
+    <script
+    src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+      <script type="text/javascript">
+      $(function(){
+        $('#mainTitle').click(function() {
+          //alert ( "Handler for .click() called." );
+          $('mainImage').hide();
+        });
+
+        $('#otherTitle').click(function() {
+            //alert ( "Handler for .click() called." );
+          $('mainImage').show();
+        });
+    });
+
+  </script>
+
+  </head>
+  <body>
+    <h1 id="mainTitle" class="pageName"> Hide Image </h1>
+    <h1 id="mainTitle" class="pageName"> Show Image </h1>
+    <img id="mainImage" src="https://placehold.it/200x200" alt="">
+  </body>
+</html>
