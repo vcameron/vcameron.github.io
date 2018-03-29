@@ -3,28 +3,51 @@
   <head>
     <meta charset="utf-8">
     <title> How to guide</title>
-    <script
-    src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-      <script type="text/javascript">
-      $(function(){
-        $('#mainTitle').click(function() {
-          //alert ( "Handler for .click() called." );
-          $('mainImage').hide();
-        });
-
-        $('#otherTitle').click(function() {
-            //alert ( "Handler for .click() called." );
-          $('mainImage').show();
-        });
-    });
-
-  </script>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
 
   </head>
   <body>
-    <h1 id="mainTitle" class="pageName"> Hide Image </h1>
-    <h1 id="mainTitle" class="pageName"> Show Image </h1>
-    <img id="mainImage" src="https://placehold.it/200x200" alt="">
+      <h1 id="title"> How to Make Pasta
+        <i class="fas fa-arrow-alt-circle-left"></i>
+      </h1>
+      <p> Instructions </p>
+      <button id="getStarted">Let's get started</button>
+    <ol id="howTo" class="hide">
+      <li class="active">
+        <h2> Step 1: Boil Water and Cook the Pasta</h2>
+        <img src="pasta.jpg" alt="Pasta">
+        <p> 1. Fill a large pot halfway with water and heat on a stove over high heat until water starts to boil--about ten minutes. <br>
+            2. Add a pinch of salt. <br>
+            3. Add a box of pasta to boiling water and cook for about 13 minutes, or until al dente, stirring occasionally</p>
+      </li>
+      <li>
+        <h2> Step 2: Make the Sauce</h2>
+          <img src="sauce.jpg" alt="Pasta Sauce">
+          <p> 1. In a large saucepan, add a large jar of pasta sauce of your choosing. <br>
+              2. Add 2 teaspoons of fresh minced garlic, a tablespoon of shredded fresh basil, and salt to taste. <br>
+              3. Add 3/4 cup of heavy cream. <br>
+              4. Let simmer over low heat for ten minutes.</p>
+      </li>
+      <li>
+        <h2> Step 3: Mix the Pasta with the Sauce and Serve</h2>
+          <img src="finished.jpg" alt="Pasta Dish">
+          <p> 1. When the pasta is cooked, drain the water and add it to the sauce.<br>
+              2. Garnish with fresh parmesan or mozzarella and more shredded basil. <br>
+              3. Serve and enjoy!
+          </p>
+      </li>
+    </ol>
+    <button id="previous" class="hide">Previous</button>
+    <button id="next" class="hide">Next</button>
+    <button id="finish" class="hide">Finish</button>
+<div id="survey">
+  <h2>Did you like these instructions?</h2>
+  <button id="yes">Yes</button>
+  <button id="no">No</button>
+</div>
+
   </body>
 </html>

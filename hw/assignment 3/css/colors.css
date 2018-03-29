@@ -8,7 +8,7 @@
 .hugetext {font-size: 120px !important;}
 .largetext {font-size: 70px;}
 .smediumtext {font-size: 40px; margin-right: 1000px;}
-.smalltext { font-size: 15px; }
+.smalltext { font-size: 12px; }
 .about {
   font-family: 'Rubik Mono One', sans-serif;
 }
@@ -92,5 +92,5 @@ section {
 footer {
   display: block;
   padding: 10px;
-  text-align: center;
+  margin-right: 350px;
 }

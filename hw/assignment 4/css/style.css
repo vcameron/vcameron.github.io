@@ -1,0 +1,10 @@
+#howTo li {display: none;}
+#howTo li.active {display: block;}
+
+#title {margin-left: auto; margin-right: auto; width: 400px;}
+
+body {font-family: 'Raleway', sans-serif;}
+button {font-family: 'Raleway', sans-serif;}
+
+button {background-color: red;
+border: white;}
