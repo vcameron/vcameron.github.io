@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title> St. Louis </title>
+  <link rel="stylesheet" href="gallery/blueimp/css/blueimp-gallery.min.css">
+   <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300" rel="stylesheet">
+  <header>
+    <h1>
+      <p1>VISIT</p1>
+      <p2> ST. LOUIS</p2>
+      </h1>
+  </header>
+</head>
+  <body>
+    <!-- The Gallery as lightbox dialog, should be a child element of the document body -->
+    <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-carousel">
+        <div class="slides"></div>
+        <h3 class="title"></h3>
+        <a class="prev">‹</a>
+        <a class="next">›</a>
+        <a class="close">×</a>
+        <a class="play-pause"></a>
+        <ol class="indicator"></ol>
+    </div>
+<div class="gallery">
+    <a href="https://www.artmartstl.com/wp-content/uploads/2016/05/28-STL-inspiration-.jpg" title="Forest Park">
+        <img src="https://www.artmartstl.com/wp-content/uploads/2016/05/28-STL-inspiration-.jpg" alt="Forest Park">
+        <a href="https://www.forestparkforever.org/park-attractions/">Forest Park</a>
+    </a>
+</div>
+<div id="links" class="gallery">
+    <a href="http://www.ballparksofbaseball.com/wp-content/uploads/2016/03/busch17951.jpg" title="Busch Stadium">
+        <img src="http://www.ballparksofbaseball.com/wp-content/uploads/2016/03/busch17951.jpg" alt="Busch Stadium">
+<a href="https://www.mlb.com/cardinals/ballpark">Busch Stadium</a>
+    </a>
+</div>
+<div class="gallery">
+    <a href="http://images.mentalfloss.com/sites/default/files/styles/mf_image_16x9/public/gateway-arch_6.jpg?itok=wriUb63V&resize=1100x619" title="Gateway Arch">
+        <img src="http://images.mentalfloss.com/sites/default/files/styles/mf_image_16x9/public/gateway-arch_6.jpg?itok=wriUb63V&resize=1100x619" alt="Gateway Arch">
+<a href="https://www.gatewayarch.com/plan-your-visit/">Gateway Arch</a>
+    </a>
+</div>
+<div class="gallery">
+    <a href="https://www.builtstlouis.net/industrial/images/anheuser-busch010.jpg" title="Budweiser">
+        <img src="https://www.builtstlouis.net/industrial/images/anheuser-busch010.jpg" alt="Budweiser">
+      <a href="http://www.budweisertours.com/locations/st-louis-missouri.html">Budweiser Brewery</a>
+    </a>
+</div>
+<div class="gallery">
+    <a href="https://1z27zaryqj-flywheel.netdna-ssl.com/wp-content/uploads/2015/02/20141103STK043-1800x800.jpg" title="Central West End">
+        <img src="https://1z27zaryqj-flywheel.netdna-ssl.com/wp-content/uploads/2015/02/20141103STK043-1800x800.jpg" alt="Central West End">
+      <a href="https://explorestlouis.com/things-to-do/neighborhoods/central-west-end/">Central West End</a>
+    </a>
+</div>
+<div class="gallery">
+    <a href="https://media-cdn.tripadvisor.com/media/photo-s/01/d1/de/4c/the-old-courthouse-in.jpg" title="Downtown St. Louis">
+        <img src="https://media-cdn.tripadvisor.com/media/photo-s/01/d1/de/4c/the-old-courthouse-in.jpg" alt="Downtown St. Louis">
+        <a href="http://www.downtownstl.org/">Downtown St. Louis</a>
+    </a>
+</div>
+
+
+    <!-- The Gallery as inline carousel, can be positioned anywhere on the page -->
+    <script src="gallery/blueimp/js/blueimp-gallery.min.js"></script>
+    <!-- Gallery Initialized -->
+    <script>
+    document.getElementById('links').onclick = function (event) {
+        event = event || window.event;
+        var target = event.target || event.srcElement,
+            link = target.src ? target.parentNode : target,
+            options = {index: link, event: event},
+            links = this.getElementsByTagName('a');
+        blueimp.Gallery(links, options);
+    };
+    </script>
+    <script>
+    blueimp.Gallery(
+        document.getElementById('links').getElementsByTagName('a'),
+        {
+            container: '#blueimp-gallery-carousel',
+            carousel: true
+        }
+    );
+    </script>
+
+<h2> St. Louis is the original gateway to the west. It's a traditional midwestern city with a rich history and an even richer present. St. Louis has something to offer for everyone: the sports fanatic, the foodie, the beer lover, and the family will all feel at home here. Whether you're touring the Budweiser factory, taking a bike ride in Forest Park, at Busch Stadium cheering on the Cardinals, or eating dinner in the Central West End, you're guaranteed to have a great time.
+</h2>
+<footer>
+  <p class="footer"> Copyright and copy 2018 CIM 111 </p>
+</footer>
+  </body>
+</html>

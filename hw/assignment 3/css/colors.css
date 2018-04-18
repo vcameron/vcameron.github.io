@@ -8,7 +8,7 @@
 .hugetext {font-size: 120px !important;}
 .largetext {font-size: 70px;}
 .smediumtext {font-size: 40px; margin-right: 1000px;}
-.smalltext { font-size: 12px; }
+.smalltext { font-size: 12px !important; }
 .about {
   font-family: 'Rubik Mono One', sans-serif;
 }
