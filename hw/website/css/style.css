@@ -21,8 +21,8 @@ ul {
 li {
   display: inline;
   float:right;
-  font-size:small;
 }
 p {
   word-spacing: 30px;
+  font-size:small;
 }
