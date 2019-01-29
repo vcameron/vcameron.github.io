@@ -26,3 +26,8 @@ p {
   word-spacing: 30px;
   /*change this*/ font-size:small;
 }
+.topnav a {
+  float: right;
+  font-size: 17px;
+  word-spacing: 30px;
+}
