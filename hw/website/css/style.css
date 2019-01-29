@@ -26,7 +26,7 @@ a {
   text-decoration: none;
 }
 .topnav a {
-  /*add new font*/
+  font-family: 'Questrial', sans-serif;
   text-decoration: none;
   float: right;
   text-align: right;
@@ -37,4 +37,5 @@ a {
   word-spacing: 30px;
 }
 .topnav a:hover {
-  color: #ffd4da;}
+  color: #ffd4da;
+}
