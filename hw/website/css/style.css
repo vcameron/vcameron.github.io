@@ -5,6 +5,7 @@ h1 {
 }
 body {
   font-family: 'Playfair Display', serif;
+  font-size: 5px;
 }
 img {
   padding-right: 500px;
@@ -21,7 +22,6 @@ ul {
 li {
   display: inline;
   float:right;
-  font-size: 5px;
 }
 p {
   word-spacing: 30px;
