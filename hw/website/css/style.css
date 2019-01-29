@@ -31,7 +31,8 @@ a {
   float: right;
   text-align: right;
   color: black;
-  padding-top: 9px;
+  padding: 14px 16px;
+  padding-top: 5px;
   font-size: 11px;
   word-spacing: 30px;
 }
