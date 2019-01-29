@@ -1,6 +1,14 @@
 header {
   font-family: 'Playfair Display', serif;
+  color: #ffcbd3
 }
 body {
   font-family: 'Playfair Display', serif;
+}
+h1 {
+  text-align: center;
+}
+img {
+  padding-right: 500px;
+  size: 10px;
 }
