@@ -17,11 +17,11 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  font-size: 5px;
 }
 li {
   display: inline;
   float:right;
+  font-size: 5px;
 }
 p {
   word-spacing: 30px;
