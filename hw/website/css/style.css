@@ -7,8 +7,9 @@ body {
   font-family: 'Playfair Display', serif;
 }
 img {
+  width="200";
+  height="40";
   padding-right: 500px;
-  size: 5px;
 }
 ul {
   list-style-type: none;
