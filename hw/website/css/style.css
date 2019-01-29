@@ -14,9 +14,9 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  word-spacing: 30px;
 }
 li {
   display: inline;
   float:right;
-  word-spacing: 30px;
 }
