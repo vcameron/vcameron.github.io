@@ -1,3 +1,7 @@
+p {
+  word-spacing: 30px;
+  /*change this*/ font-size:small;
+}
 h1 {
   font-family: 'Playfair Display', serif;
   color: #ffd4da;
@@ -21,10 +25,6 @@ ul {
 li {
   display: inline;
   float:right;
-}
-p {
-  word-spacing: 30px;
-  /*change this*/ font-size:small;
 }
 .topnav a {
   text-decoration: none;
