@@ -1,31 +1,6 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset "utf-8";
-    <title> Tori Cameron
-    </title>
-    <header>
-      <h1>TORI CAMERON</h1>
-      <nav>
-        <ul>
-            <li>
-              <a>ABOUT</a>
-            </li>
-            <li>
-              <a>RESUME</a>
-            </li>
-            <li>
-              <a>PORTFOLIO</a>
-            </li>
-        </ul>
-      </nav>
-    </header>
-  </head>
-        <body>
-        <main>
-
-        </body>
-        </main>
-    <footer>
-    </footer>
-</html>
+header {
+  font-family: 'Playfair Display', serif;
+}
+body {
+  font-family: 'Playfair Display', serif;
+}
