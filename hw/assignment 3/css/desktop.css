@@ -1,6 +1,6 @@
 .dark-bg {background: none; }
-.medium-bg {background:#FFD9DF; }
-.light-bg { background:#FFD9DF; }
+.medium-bg {background:#EEECFF; }
+.light-bg { background:#EEECFF; }
 
 .dark-txt {color: black; }
 .medium-txt {color: black; }
@@ -16,9 +16,10 @@
 
 
 .gallery {
-  width: 180px;
+  width: 100%;
+  height: auto;
   float: left;
-  margin-right: 5px;
+  padding: 5px;
 }
 img {
     width: 100%;
@@ -34,7 +35,7 @@ header h1 {
   height: 100px;
   padding-top: 20px;
   text-align: center;
-  background-color: #FFD9DF;
+  background-color: #EEECFF;
 }
 
 nav ul {text-align: center;
