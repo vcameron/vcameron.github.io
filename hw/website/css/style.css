@@ -24,6 +24,7 @@ a {
 }
 .topnav a {
   font-family: 'Questrial', sans-serif;
+  word-spacing: 5px;
   text-decoration: none;
   float: right;
   text-align: right;
