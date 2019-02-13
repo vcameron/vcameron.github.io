@@ -22,12 +22,10 @@ li {
 a {
   text-decoration: none;
 }
-nav {
-  letter-spacing: 3px;
 }
 .topnav a {
   font-family: 'Questrial', sans-serif;
-  word-spacing: 5px;
+  word-spacing: 30px;
   text-decoration: none;
   float: right;
   text-align: right;
