@@ -23,6 +23,7 @@ a {
   text-decoration: none;
 }
 .topnav a {
+  letter-spacing: 3px;
   font-family: 'Questrial', sans-serif;
   word-spacing: 5px;
   text-decoration: none;
@@ -33,7 +34,6 @@ a {
   padding-top: 5px;
   font-size: 11px;
   word-spacing: 30px;
-  letter-spacing: 3px;
 }
 .topnav a:hover {
   color: #ffd4da;
